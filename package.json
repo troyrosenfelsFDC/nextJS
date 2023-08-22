@@ -3,8 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "login": "aws codeartifact login --tool npm --repository npm --domain foodtodonate --domain-owner 366681657853 --region us-east-1"
+    "start": "next start"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
