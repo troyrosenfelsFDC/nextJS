@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "login": "aws codeartifact login --tool npm --repository npm --domain foodtodonate --domain-owner 366681657853 --region us-east-1",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
